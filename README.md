@@ -29,13 +29,13 @@ Before running the app, make sure you have the following installed:
 1. Clone this repository to your local machine or download the source code.
 2. Install the required Python packages using the following command:
 "pip install selenium pandas"
-3. Download the appropriate ChromeDriver executable for your Chrome browser version and update the path/to/chromedriver placeholder in the code with the path to the ChromeDriver executable.
+3. Download the appropriate ChromeDriver executable for your Chrome browser version and update the "path/to/chromedriver" placeholder in the code with the path to the ChromeDriver executable.
 
 # Usage
-1.Run the movie_suggestions_app.py script:
-"python movie_suggestions_app.py"
+1.Run the movie_suggestions_app.py script 
+"python_movie_suggestions_app_version_1.py"
 2. Enter a movie genre when prompted by the app.
-3. The app will scrape movie data from IMDb based on the given genre, save it to a CSV file named movie_data.csv, and display movie suggestions on the console.
+3. The app will scrape movie data from IMDb based on the given genre, save it to a CSV file named movie_data.csv and display movie suggestions on the console.
 
 # Error Handling
 The app includes error handling mechanisms to ensure a smooth execution. Here's how error handling is implemented in different parts of the code:
