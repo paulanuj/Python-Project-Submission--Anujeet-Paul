@@ -18,6 +18,10 @@ The Movie Suggestions App is designed to assist users in finding movie recommend
 3. Error Handling: The app includes robust error handling mechanisms to ensure smooth execution. It utilizes try-except blocks to catch and handle exceptions that may occur during web scraping, data processing, and file operations. Appropriate error messages are displayed to provide information about any encountered errors.
 4. User Interaction: The app prompts the user to enter a movie genre of their choice. It then scrapes IMDb for movies belonging to that genre, saves the data, and displays Top 50 movie suggestions along with their ranks and genres. Please note, version 2 code can be used in order to get the names of all the movies in the genre.
 
+# Note:
+1. "python_movie_suggestions_app_version_1.py" : Python script that gives top 50 movies names as per genre depending on their ratings.
+2. "python_movie_suggestions_app_version_2.py" : Python script that gives all the movies names as per genre.
+
 # Prerequisites
 Before running the app, make sure you have the following installed:
 1. Python 3
